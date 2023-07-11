@@ -4,9 +4,9 @@ It's a pain to test face-tracked VRChat avatars while you're developing them bec
 ### How to use
 1. Download and install https://hexler.net/protokol
 2. Upload an avatar that includes in its Parameters object all the parameters you want to record (This step is necessary because VRCFaceTracking only sends parameters it detects in the avatar OSC configuration)
-3. Launch VRChat, Protokol, and VRCFaceTracking
-4. Configure VRChat or VRCFaceTracking so that VRCFaceTracking is sending data to a different port than VRChat is listening on
-5. Launch Protokol and have it listen on the port VRCFaceTracking is sending to
+3. Configure VRChat or VRCFaceTracking so that VRCFaceTracking is sending data to a different port than VRChat is listening on
+4. Launch VRChat, Protokol, and VRCFaceTracking
+5. Have Protokol listen on the port VRCFaceTracking is sending to
 6. In Protokol, go to Options -> More..., select the General tab on the side, and set "Keep log lines" to some huge number like 5000 or 10000
 7. Once you have your headset on and it's tracking your face, check the Enabled box in Protokol
 8. Make funny faces
